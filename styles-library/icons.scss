@@ -1,4 +1,8 @@
-$lov-font-path: "./icon_set" !default;
+// Tieto icons
+//
+
+// Needed for mudule bundlers
+$lov-font-path: "../fonts" !default;
 
 @font-face {
   font-family: 'Lovicons';
@@ -11,8 +15,11 @@ $lov-font-path: "./icon_set" !default;
   url('#{$lov-font-path}/Lovicons.svg#fontawesome') format('svg');
 }
 
-i {
-  /* use !important to prevent issues with browser extensions that change fonts */
+// Tieto icon fonts
+//
+// <i class="icon icon-bottle"></i>
+
+i[class^=icon] {
   font-family: 'Lovicons' !important;
   speak: none;
   font-style: normal;
@@ -20,8 +27,6 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

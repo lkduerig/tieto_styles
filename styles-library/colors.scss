@@ -1,17 +1,12 @@
-
-// base Tieto colors
-////////////////////
-// Colors from this style guide: https://company-81847.frontify.com/d/VHfNy7brWRvI/tieto-style-guide#/introduction/overview
-// We use Tieto Style Guide -> $tsg-..... namespace.
-////////////////////
-// If you need transparent colors use rgba colors: rgba($tsg-dove-grey, .3) or use sass opacify: opacify($tsg-dove-grey, .3), or any other sass color method!
-////////////////////
+// Colors
+//
+// This section contains various Tieto colors.
 
 $white: #fff;
 $black: #000;
 
 // Primary colour
-$tsg-picton-blue: #62B3E5;
+$tsg-picton-blue: #8ae463;
 
 // Blue in user interfaces
 $tsg-curious-blue: #2C89C3;
